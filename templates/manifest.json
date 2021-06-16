@@ -1,0 +1,113 @@
+{
+  "version": "11.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkWorkshopStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkWorkshopStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/CdkWorkshopStack/MySimpleAppBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MySimpleAppBucket6B59014A",
+            "trace": [
+              "new Bucket (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:1331:22)",
+              "new CdkWorkshopStack (/Users/karthickragavendran/Desktop/cdk-workshop/lib/cdk-workshop-stack.ts:7:20)",
+              "Object.<anonymous> (/Users/karthickragavendran/Desktop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Module.m._compile (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/MySimpleAppBucketExport": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MySimpleAppBucketExport",
+            "trace": [
+              "new CdkWorkshopStack (/Users/karthickragavendran/Desktop/cdk-workshop/lib/cdk-workshop-stack.ts:10:5)",
+              "Object.<anonymous> (/Users/karthickragavendran/Desktop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Module.m._compile (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:202:5)",
+              "visit (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:198:5)",
+              "injectMetadataResources (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.<anonymous> (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:483:26)",
+              "process.emit (events.js:376:20)",
+              "process.emit (domain.js:470:12)",
+              "process.emit (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:202:5)",
+              "visit (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:198:5)",
+              "injectMetadataResources (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.<anonymous> (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:483:26)",
+              "process.emit (events.js:376:20)",
+              "process.emit (domain.js:470:12)",
+              "process.emit (/Users/karthickragavendran/Desktop/cdk-workshop/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "CdkWorkshopStack"
+    }
+  }
+}
